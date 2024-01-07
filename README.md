@@ -39,7 +39,7 @@ RarityTable = {
 ```
 ```lua
 RoLottery:ByIndexWeight(ItemTable)
-}
+
 --[[
 Explain:
 ENG: The corresponding weights for each index will be calculated separately
@@ -49,6 +49,7 @@ ItemTable = {
 	[Index] = {
 		Weight = WeightValue
 	}
+}
 --]]
 ```
 ```lua
