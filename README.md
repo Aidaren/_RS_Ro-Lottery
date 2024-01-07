@@ -20,6 +20,7 @@ Providing weight-dependent lottery algorithms for the dominant data structures o
 ### Main Functions
 ```lua
 RoLottery:ByRarity(ItemTable , RarityTable)
+
 --[[
 Explain:
 ENG: Items of the same rarity will have the combined weights treated as one weight, and then a random value will be returned from the selected rarity weights
@@ -54,6 +55,7 @@ ItemTable = {
 ```
 ```lua
 RoLottery:ByDictionaryWeight(ItemTable)
+
 --[[
 Explain:
 ENG: works in much the same way as ByIndexWeight, except that the ItemTable and return value will not have the Index
